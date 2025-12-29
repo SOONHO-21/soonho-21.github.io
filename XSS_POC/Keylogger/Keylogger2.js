@@ -3,8 +3,8 @@ const search_word = document.getElementsByName("search_word")[0];
 
 var search_keylog = "";
 
-search_word.addEventListener("keyup", () => {
-    search_keylog += event.key;
+search_word.addEventListener("keyup", (e) => {
+    search_keylog += e.key;
 });
 
 const search_btn = document.getElementsByTagName("button")[0];
