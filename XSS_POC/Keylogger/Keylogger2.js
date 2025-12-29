@@ -11,6 +11,6 @@ search_word.addEventListener("keyup", () => {
 const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener('click', () => {
-    fetch("https://ofibkiz.request.dreamhack.games?keyword=" + search_keylog);
+    fetch("https://tksqwzr.request.dreamhack.games?keyword=" + search_keylog);
     // search_keylog = "";
 })
